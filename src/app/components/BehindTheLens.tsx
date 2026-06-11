@@ -46,7 +46,8 @@ export default function BehindTheLens() {
           >
             <div className="relative aspect-[3/4] overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1605076896228-086cda8868c9?w=800"
+                // src="https://images.unsplash.com/photo-1605076896228-086cda8868c9?w=800"
+                src="https://media.licdn.com/dms/image/v2/D5622AQExVshsDp5OfQ/feedshare-shrink_800/B56Z6od.3YIAAc-/0/1780942892789?e=1782950400&v=beta&t=4vtaeuPOZLFzYI1WDQ_0uEwAPXfF2O-vddUicRFJHD8"
                 alt="Behind the lens"
                 className="w-full h-full object-cover"
               />
