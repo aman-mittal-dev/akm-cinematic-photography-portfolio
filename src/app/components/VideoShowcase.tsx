@@ -5,24 +5,10 @@ import { Play } from 'lucide-react';
 const videos = [
   {
     id: 1,
-    title: 'Urban Stories',
-    duration: '3:24',
-    thumbnail: 'https://images.unsplash.com/photo-1582994254571-52c62d96ebab?w=1200',
-    videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
-  },
-  {
-    id: 2,
-    title: 'Portrait Sessions',
-    duration: '2:15',
-    thumbnail: 'https://images.unsplash.com/photo-1608186336271-53313eeaf864?w=1200',
-    videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
-  },
-  {
-    id: 3,
-    title: 'Fashion Film',
-    duration: '4:30',
-    thumbnail: 'https://images.unsplash.com/photo-1580852300513-9b50125bf293?w=1200',
-    videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+    title: 'Radha Krishna',
+    duration: '7:16',
+    thumbnail: 'https://img.youtube.com/vi/sMMDlrLhTTU/maxresdefault.jpg',
+    videoUrl: 'https://www.youtube.com/embed/sMMDlrLhTTU?si=AAHN-Zcc2pVSJ0ym',
   },
 ];
 

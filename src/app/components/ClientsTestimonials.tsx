@@ -2,37 +2,16 @@ import { motion } from "motion/react";
 import { Quote } from "lucide-react";
 
 const clients = [
-  "VOGUE",
-  "NIKE",
-  "APPLE",
-  "TESLA",
-  "GUCCI",
-  "ADIDAS",
-  "SONY",
-  "NETFLIX",
+  "BLACKLISTED",
 ];
 
 const testimonials = [
   {
     id: 1,
     quote:
-      "Rohit has an uncanny ability to capture the soul of a moment. His work transcends traditional photography.",
-    author: "Sarah Mitchell",
-    role: "Creative Director, Vogue",
-  },
-  {
-    id: 2,
-    quote:
-      "Working with Rohit was transformative. He doesn't just take photos—he creates visual poetry.",
-    author: "James Chen",
-    role: "Brand Manager, Nike",
-  },
-  {
-    id: 3,
-    quote:
-      "The attention to detail and artistic vision is unparalleled. Every shot tells a complete story.",
-    author: "Emma Rodriguez",
-    role: "Fashion Editor, Harper's Bazaar",
+      "Working as a Photographer & Cinematographer at Blacklisted Agency, Rohit contributes to visual storytelling through photography, creative production, and cinematic content creation. His work reflects attention to detail, creativity, and a passion for capturing meaningful moments.",
+    author: "Mr. Mohit Sharma",
+    role: "Founder & Creative Director, Blacklisted Agency",
   },
 ];
 
@@ -56,10 +35,11 @@ export default function ClientsTestimonials() {
               letterSpacing: "0.05em",
             }}
           >
-            Trusted By
+            {/* Trusted By */}
+            Professional Experience
           </h2>
           <p className="text-white/60 text-lg tracking-wide">
-            Collaborations with leading brands
+            {/* Collaborations with leading brands */}
           </p>
         </motion.div>
 

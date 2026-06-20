@@ -2,9 +2,9 @@ import { motion } from 'motion/react';
 import { Camera, Aperture, Zap } from 'lucide-react';
 
 const gearItems = [
-  'Sony A7R V',
-  'Canon EOS R5',
-  'Leica M11',
+  'Motorola Moto X Play',
+  'Poco X3',
+  'Samsung Galaxy S24',
   'Zeiss 50mm f/1.4',
   'Sony 85mm f/1.4 GM',
   'DJI Ronin RS3',
@@ -46,8 +46,7 @@ export default function BehindTheLens() {
           >
             <div className="relative aspect-[3/4] overflow-hidden">
               <img
-                // src="https://images.unsplash.com/photo-1605076896228-086cda8868c9?w=800"
-                src="https://media.licdn.com/dms/image/v2/D5622AQExVshsDp5OfQ/feedshare-shrink_800/B56Z6od.3YIAAc-/0/1780942892789?e=1782950400&v=beta&t=4vtaeuPOZLFzYI1WDQ_0uEwAPXfF2O-vddUicRFJHD8"
+                src="/images/Rohit.png"
                 alt="Behind the lens"
                 className="w-full h-full object-cover"
               />
@@ -74,12 +73,10 @@ export default function BehindTheLens() {
               </h3>
               <div className="space-y-4 text-white/70 leading-relaxed text-lg">
                 <p>
-                  Photography found me during a backpacking trip through Iceland. The raw beauty of the landscape
-                  demanded to be captured, and I've been chasing that feeling ever since.
+                  Photography started as a creative curiosity and gradually became a passion for visual storytelling. Through photography and cinematography, I discovered a way to capture emotions, perspectives, and moments that often go unnoticed.
                 </p>
                 <p>
-                  My work explores the intersection of light, emotion, and time—freezing moments that tell stories
-                  beyond words.
+                  Today, I work on creating compelling visual content that blends creativity, storytelling, and technical precision. Every project is an opportunity to learn, experiment, and bring unique ideas to life through the lens.
                 </p>
               </div>
             </div>
@@ -91,8 +88,9 @@ export default function BehindTheLens() {
                 Creative Philosophy
               </h4>
               <p className="text-white/60 leading-relaxed italic">
-                "Every photograph is a conversation between the subject and the soul. I don't just capture what I
-                see—I capture what I feel."
+                {/* "Every photograph is a conversation between the subject and the soul. I don't just capture what I
+                see—I capture what I feel." */}
+                "Great visuals are not just about what appears in the frame—they are about the story, emotion, and perspective behind it. My goal is to create images and films that leave a lasting impression."
               </p>
             </div>
 
@@ -125,19 +123,19 @@ export default function BehindTheLens() {
             <div className="grid grid-cols-3 gap-6 pt-8 border-t border-white/10">
               <div className="text-center">
                 <p className="text-4xl mb-2" style={{ fontWeight: 300 }}>
-                  10+
+                  7+
                 </p>
                 <p className="text-white/50 text-sm tracking-widest uppercase">Years</p>
               </div>
               <div className="text-center">
                 <p className="text-4xl mb-2" style={{ fontWeight: 300 }}>
-                  500+
+                  25+
                 </p>
                 <p className="text-white/50 text-sm tracking-widest uppercase">Projects</p>
               </div>
               <div className="text-center">
                 <p className="text-4xl mb-2" style={{ fontWeight: 300 }}>
-                  25
+                  2
                 </p>
                 <p className="text-white/50 text-sm tracking-widest uppercase">Countries</p>
               </div>

@@ -11,14 +11,19 @@ export default function HeroSection() {
         animate={{ scale: 1 }}
         transition={{ duration: 1.5, ease: 'easeOut' }}
       >
-        <div
-          className="w-full h-full bg-cover bg-center"
-          style={{
-            backgroundImage: 'url(https://images.unsplash.com/photo-1488240339625-c4014e114224?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1920)',
-          }}
-        />
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="metadata"
+          className="absolute inset-0 w-full h-full object-cover brightness-100"
+        >
+          <source src="/uzbakistan.mp4" type="video/mp4" />
+        </video>
+
         {/* Dark Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/60 to-black/90" />
       </motion.div>
 
       {/* Animated Lighting Effect */}
@@ -71,7 +76,7 @@ export default function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.7 }}
           >
-            Cinematic Storyteller & Visual Artist
+            Cinematic Photographer & Visual Storyteller
           </motion.p>
 
           {/* Divider */}

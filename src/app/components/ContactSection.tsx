@@ -16,9 +16,29 @@ export default function ContactSection() {
     setIsSubmitting(true);
 
     try {
-      await new Promise(resolve => setTimeout(resolve, 1500));
+      // await new Promise(resolve => setTimeout(resolve, 1500));
 
-      console.log('Form submitted:', formData);
+      // console.log('Form submitted:', formData);
+
+      const response = await fetch(
+        'https://formsubmit.co/ajax/dadhwalrohit155@gmail.com',
+        {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            Accept: 'application/json',
+          },
+          body: JSON.stringify({
+            name: formData.name,
+            email: formData.email,
+            message: formData.message,
+          }),
+        }
+      );
+
+      if (!response.ok) {
+        throw new Error('Failed');
+      }
 
       setSubmitStatus('success');
       setFormData({ name: '', email: '', message: '' });
@@ -72,7 +92,7 @@ export default function ContactSection() {
               <div className="space-y-6">
                 {/* Instagram */}
                 <motion.a
-                  href="https://instagram.com"
+                  href="https://www.instagram.com/rohitdadhwal743/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 p-6 bg-white/5 backdrop-blur-sm border border-white/10 hover:bg-white/10 hover:border-white/20 transition-all duration-300 group"
